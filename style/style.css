@@ -1,0 +1,98 @@
+h1 {
+  font-family: 'Courier New', monospace;
+}
+p {
+  margin: 0;
+  font-family:"Times New Roman", Times, serif;
+  font-size: 18px;
+  text-align:center;
+  text-align:justify;
+  } 
+form {
+   margin-left: 900px;
+}
+h2 {
+  font-family: 'Courier New', monospace;
+   font-size: 20px;
+}
+h3 {
+  font-family: 'Courier New', monospace;
+  font-sie:40px;
+}
+h4 {
+  font-family: 'Courier New', monospace;
+}
+h5{
+  font-size:50px;
+ font-family: 'Courier New', monospace;
+ color: blue;
+} 
+.button{
+  font-size: 12px
+}
+.container {
+  position: relative;
+  max-width: 800px; /* Maximum width */
+  margin: 0 auto; /* Center it */
+}
+
+.container .content {
+  position: absolute; /* Position the background text */
+  bottom: 0; /* At the bottom. Use top:0 to append it to the top */
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  color: #f1f1f1; /* Grey text */
+  width: 100%; /* Full width */
+  padding: 20px; /* Some padding */
+}
+
+.centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.center {
+  text-align: center;
+}
+.carousel {
+ display: block;
+  margin-left:auto;
+  margin-right:auto;
+  width: 50%;
+}
+.card-title; .card-text {
+property:top;
+position:0;
+width: 300px;
+padding: 50px;
+margin: 20px;
+}
+.card {
+width: 17rem;
+}
+aside {
+  padding-right:40px;
+  padding-left:40px;
+}
+.footer {
+  background-color: #F1F1F1;
+  text-align: center;
+  padding: 10px;
+  }
+.float-start {
+  padding-right: 30px;
+  width: 25%;
+  height:25%;
+}
+.float-end {
+  padding-top:10px;
+  padding-right: 0px;
+  padding-left:30px;
+  width: 25%;
+  height:25%;
+}
+
+.carousel-item{
+  padding-bottom:30px;
+ }
